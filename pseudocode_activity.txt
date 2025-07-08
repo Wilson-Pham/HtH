@@ -1,0 +1,22 @@
+Start
+
+1. Setting up the Alarm to go off
+    - A. Select time
+    - B. AM/PM
+    - C. Date (MM/DD/YYYY)
+
+2. Check if the Date and Time of the Alarm clock is equal to the current Time and Date
+    3. If the Date and Time of the Alarm clock is equal to the current Time and Date
+        - A. Create an Alarming sound 
+        - B. Ask user to snooze the sound, continue the sound, or stop the sound
+            - 3Ba. If the user says to snooze the sound
+                - Ask the user how many seconds, minutes, or hours to snooze the sound for
+                    - When the snooze time is up, ask user to repeat the number of seconds, minutes, or hours to snooze the sound again
+            - 3Bb. If the user says to continue the sound
+                - The sound will continue until the user hits a button to stop the sound 
+            - 3Bc. If the user says to stop the sound  
+                - The alarming sound will stop completely
+    4. If the Date and Time of the Alarm clock is not equal to the current Time and Date
+        - A. Don't play an alarming sound until the date and time is equal to the current Time and Date
+  
+End
