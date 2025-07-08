@@ -35,19 +35,3 @@ def exponential_growth(menu, growth_rate, periods): # Function that exponentiall
 
 new_menu = exponential_growth(menu, 1.5, 5) # Calls the function
 print(new_menu) # Prints the exponential growth (1.5) prices of all items in 5 years:{'Pizza': 22.7053125, 'Burger': 30.2990625, 'Hot dog': 15.1115625, 'Cheese': 4.4803125, 'Ice cream': 11.3146875, 'Churro': 5.9990625, 'Soda': 6.7584375}
-
-print(inflation(2.99, 0.05))
-
-def deflation(original_price, deflation_rate):
-    deflation_rate = 0.5
-    deflation_prices = original_price * (1 - deflation_rate)
-    return deflation_prices
-
-print(deflation(3.99, 0.5))
-
-def exponential_growth(original_price, growth_rate, years):
-    growth_rate = 0.1
-    exponential_growth_price = original_price * ((1 + growth_rate) ** years)
-    return exponential_growth_price
-
-print(exponential_growth(1.49, 0.1, 5))
