@@ -6,7 +6,7 @@ def create(recipe): # This function creates a new recipe and adds it to the cook
 
 def read(index): # This function reads a recipe at a given index
      if 0 <=index < len(cookbook): # Checks if the index is valid
-        return cookbook[index] # Returns the recipe at the specified index
+        print(cookbook[index])  # Returns the recipe at the specified index
      else:
         print("please enter a valid index.") # Prints an error message if the index is invalid
 
